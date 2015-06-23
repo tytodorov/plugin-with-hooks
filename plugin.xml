@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.telerik.hooks.plugins" version="1.0.0">
+
+    <name>Plugin With Hooks</name>
+    <license>Commercial</license>
+    <keywords>cordova,device</keywords>
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <hook type="before_plugin_install" src="scripts/beforeInstall.js" />
+
+    <!-- ios -->
+    <platform name="ios">        
+        <hook type="before_plugin_install" src="scripts/beforeiOSInstall.js" />
+    </platform>
+
+	<!-- android -->
+	<platform name="android">
+        <hook type="before_plugin_install" src="scripts/beforeAndroidInstall.js" />
+	</platform>
+
+    <!-- wp8 -->
+    <platform name="wp8">
+        <hook type="before_plugin_install" src="scripts/beforeWP8Install.js" />
+    </platform>
+</plugin>
