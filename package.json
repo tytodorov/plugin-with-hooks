@@ -1,0 +1,32 @@
+{
+"name": "com.telerik.hooks.plugins",
+"version": "1.0.0",
+"description": "Hooks.",
+"cordova": {
+"id": "com.telerik.hooks.plugins",
+"platforms": [
+"ios",
+"android",
+"wp8"
+]
+},
+"repository": {
+"type": "git",
+"url": "git+https://github.com/tytodorov/plugin-with-hooks.git"
+},
+"keywords": [
+"none"
+],
+"engines": [
+{
+"name": "cordova",
+"version": ">=3.5.0"
+}
+],
+"author": "Mine)",
+"license": "MIT",
+"bugs": {
+"url": "https://github.com/tytodorov/plugin-with-hooks/issues"
+},
+"homepage": "https://github.com/tytodorov/plugin-with-hooks#readme"
+}
