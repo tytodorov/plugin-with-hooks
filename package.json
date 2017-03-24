@@ -1,6 +1,6 @@
 {
 "name": "com.telerik.hooks.plugins",
-"version": "1.0.0",
+"version": "2.0.0",
 "description": "Hooks.",
 "cordova": {
 "id": "com.telerik.hooks.plugins",
