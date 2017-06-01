@@ -3,3 +3,4 @@ ls -l .
 netstat -atp tcp
 df -h
 du -h -d 1
+date
